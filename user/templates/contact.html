@@ -1,0 +1,21 @@
+{% extends 'master.html' %}
+{% block content %}
+<table>
+    <tr>
+        <td>Name</td>
+        <td><input type="text" placeholder="Enter your name"></td>
+    </tr>
+    <tr>
+        <td>Age</td>
+        <td><input type="number" min="0" max="110"></td>
+    </tr>
+    <tr>
+        <td>DOB</td>
+        <td><input type="date"></td>
+    </tr>
+    <tr>
+        <td>Address</td>
+        <td><input type="textarea"></td>
+    </tr>
+</table>
+{% endblock %}
